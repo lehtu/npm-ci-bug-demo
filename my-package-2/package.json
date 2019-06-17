@@ -1,0 +1,18 @@
+{
+  "name": "my-package-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "echo running preinstall for my-package-2",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "rollup": "^1.15.6"
+  },
+  "dependencies": {
+    "react-tooltip": "3.9.2"
+  }
+}

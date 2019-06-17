@@ -1,0 +1,17 @@
+{
+  "name": "my-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "my-example-package-3": "git+https://github.com/lehtu/my-example-package-3.git",
+    "my-package": "file:../my-package",
+    "my-package-2": "file:../my-package-2",
+    "react-tooltip": "3.10.0"
+  }
+}
